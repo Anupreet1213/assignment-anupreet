@@ -1,0 +1,52 @@
+.navbar {
+  padding: 1.5rem;
+  /* background-color: red; */
+  /* border-bottom: 2px solid red; */
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.navbar-logo span {
+  color: var(--black-color);
+  background-color: white;
+  padding: 4px;
+}
+
+.navbar-content ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+}
+
+.dp {
+  border-radius: 50px;
+  width: 2rem;
+  /* margin-right: 0.5rem; */
+}
+
+.signButton {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  padding: 6px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+.signButton:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  cursor: pointer;
+}

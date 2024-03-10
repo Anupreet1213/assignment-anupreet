@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-color: rgba(15, 15, 15, 1);
+  --white-color: rgba(248, 248, 248, 1);
+}
+
+.body-container {
+  background-color: var(--black-color);
+  height: 100vh;
+  color: var(--white-color);
+}
